@@ -21,9 +21,9 @@ Deno.serve(async (req)=>{
     headers: {
       'Content-Type': 'application/json',
       'Connection': 'keep-alive',
-      'access-control-allow-origin': '*',
-      'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS',
-      'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With'
+      // 'access-control-allow-origin': '*',
+      // 'access-control-allow-methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      // 'access-control-allow-headers': 'Content-Type, Authorization, X-Requested-With'
     }
   });
 });
